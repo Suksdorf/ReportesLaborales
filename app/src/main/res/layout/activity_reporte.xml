@@ -1,0 +1,150 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#62BA48">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/lblNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgLogo"
+                android:layout_marginLeft="15dp"
+                android:text="Nombre/Legajo (no obligatorio)"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/lblNombre"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/background_light"
+                android:hint="Anónimo..."
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/lblLugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtNombre"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Lugar/Sector"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtLugar"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/lblLugar"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/background_light"
+                android:hint="Lugar"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/lblFecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtLugar"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Fecha"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtFecha"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/lblFecha"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/background_light"
+                android:hint="Fecha"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/lblDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtFecha"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Descripción"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtDescripcion"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/lblDescripcion"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/background_light"
+                android:gravity="top"
+                android:hint="Detalles"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/btnFoto"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/txtDescripcion"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#42BA68"
+                android:text="agregar fotografia (opcional)"
+                android:textSize="10dp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imgFoto"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_below="@+id/btnFoto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:padding="1dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnEnviar"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgFoto"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="40dp"
+                android:text="Enviar" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

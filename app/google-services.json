@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "839488358754",
+    "project_id": "reporteslaborales-eeff3",
+    "storage_bucket": "reporteslaborales-eeff3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839488358754:android:14529303678a3bfe2c843b",
+        "android_client_info": {
+          "package_name": "com.suksd.ferna.ceamsereportes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839488358754-eq068kd4r0hcul8s08n7h3ft5hnjtv3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOIcxQUcRPEBEltlxpAQWWOz3Enx7o9mU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839488358754-eq068kd4r0hcul8s08n7h3ft5hnjtv3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
